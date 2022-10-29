@@ -1,5 +1,5 @@
-| NIM     | 312010042       |
-| Nama    | INDIRA ALINE     |
+| NIM     | 312010042      |
+| Nama    | INDIRA ALINE    |
 | Kelas   | TI.20.A.1        |
 
 ## Membuat program Playfair cipher
@@ -127,7 +127,7 @@ Terdapat 3 menu pada outputnya. Saya akan menginputkan Encryption jadi pilih men
   Fungsi dari output tersebut yaitu untuk menginputkan enkripsi Playfair Cihper pada plaintext. Disini saya menginputkan plaintextnya yaitu: "GOOD BROOM SWEEP CLEAN REDWOOD NATIONAL STATE PARK JUNK FOOD AND HEALTH PROBLEMS". </p>
  ![output](Output/enter_msg.png)</p>
 
- 7. Setelah klik enter, makan akan muncul output CIPHER TEXT. </p>
+ 7. Setelah klik enter, maka akan muncul output CIPHER TEXT. </p>
  ![output](Output/cipher_text.png)</p>
 
  -----------------------------------------------------------------------------------------------------------------------------------------------
