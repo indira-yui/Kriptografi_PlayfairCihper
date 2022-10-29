@@ -1,20 +1,3 @@
-| NIM     | 312010042       |
-| Nama    | INDIRA ALINE     |
-| Kelas   | TI.20.A.1        |
-
-## Membuat program Playfair cipher
-Berikut langkah-langkah membuat program playfair cipher menggunakan bahasa pemrograman python:</p>
-
-## Membuat program di replit
-Saya membuat program ini dengan website replit. Silahkan kunjungi websitenya : https://replit.com.</p>
-
-## Membuat file baru direplit </p>
-1. Pilih menu "CREATE" pada halaman replit. </p>
-
-2. Tampilan template fungsi untuk memilih bahasa pemrograman membuat filenya. Disini saya menggunakan bahasa pemrograman python dan beri nama filenya "Enkripsi Playfair Cihper", lalu klik "Create Repl" </p>
-
-3. Selanjutnya mengisi/mengetik codingannya:
-```python
 
 key=input("Enter key")
 key=key.replace(" ", "")
@@ -45,6 +28,7 @@ for i in range(0,5): #making matrix
     for j in range(0,5):
         my_matrix[i][j]=result[k]
         k+=1
+
 def locindex(c): #get location of each character
     loc=list()
     if c=='J':
@@ -99,6 +83,7 @@ def decrypt():  #decryption
         else:
             print("{}{}".format(my_matrix[loc[0]][loc1[1]],my_matrix[loc1[0]][loc[1]]),end=' ')    
         i=i+2        
+
 while(1):
     choice=int(input("\n 1.Encryption \n 2.Decryption: \n 3.EXIT"))
     if choice==1:
@@ -109,26 +94,3 @@ while(1):
         exit()
     else:
         print("Choose correct choice")
-```
-</p>
-
-4. Selanjutnya klik "Run" untuk menampilkan output programnya. Setelah di "Run" akan muncul output: "ENTER KEY", Maksud dari ENTER KEY yaitu kata kuncinya. Disini saya menggunakan kata kunci "TEKNIK INFORMATIKA", setelah menginputkan kata kunci lalu klik enter pada keyboard.</p>
-![output](Output/enter_key.png)</p>
-
-5. Lalu akan muncul outputnya: </p>
- 1.Encryption </p>
- 2.Descryption </p>
- 3.EXIT </p>
-Terdapat 3 menu pada outputnya. Saya akan menginputkan Encryption jadi pilih menu "1. Encryption".</p>
-![output](Output/encryption.png)</p>
-
-6. Maka akan muncul outputnya: </p>
-  " ENTER MSG:" </P>
-  Fungsi dari output tersebut yaitu untuk menginputkan enkripsi Playfair Cihper pada plaintext. Disini saya menginputkan plaintextnya yaitu: "GOOD BROOM SWEEP CLEAN REDWOOD NATIONAL STATE PARK JUNK FOOD AND HEALTH PROBLEMS". </p>
- ![output](Output/enter_msg.png)</p>
-
- 7. Setelah klik enter, makan akan muncul output CIPHER TEXT. </p>
- ![output](Output/cipher_text.png)</p>
-
- -----------------------------------------------------------------------------------------------------------------------------------------------
- ![output](Output/arigatou.png)</p>
