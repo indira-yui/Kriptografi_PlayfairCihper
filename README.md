@@ -1,6 +1,6 @@
-| NIM     | 312010042      |
-| Nama    | INDIRA ALINE    |
-| Kelas   | TI.20.A.1        |
+| INDIRA ALINE      |   312010042       |
+|-------------------|-------------------|
+| TI.20.A.1         |     KRIPTOGRAFI   |
 
 ## Membuat program Playfair cipher
 Berikut langkah-langkah membuat program playfair cipher menggunakan bahasa pemrograman python:</p>
